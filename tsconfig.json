@@ -1,0 +1,14 @@
+{
+    "include": ["*", "scripts/build.mts", "scripts/deploy.mts", "scripts/generate-sitemap-and-robots.mts", "scripts/run-script-with-args.mts"],
+    "compilerOptions": {
+        "outDir": "./scripts/compiled",
+        "rootDir": "./scripts",
+        "module": "ESNext",
+        "target": "ES2020",
+        "removeComments": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "strict": true,
+        "skipLibCheck": true,
+    }
+}

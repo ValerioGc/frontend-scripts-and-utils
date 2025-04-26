@@ -1,0 +1,12 @@
+{
+    "name": "fe-scripts",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@types/node": "^22.13.10",
+        "typescript": "^4.5.0"
+    }
+}
